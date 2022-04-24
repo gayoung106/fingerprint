@@ -54,9 +54,47 @@
   //   console.log("합격")
   // } else if(userJa || userRe) {
   //   console.log("예비")
-  // } else if(!userJa && !userRe) {
+  // } else {
   //   console.log("불합격")
   // }
+
+  // 코알누 for문 while문 문제1.
+  // let j = 0;
+  // for(let i = 1; i<=100; i++) {
+  //   j =+ i;
+  // }
+  // console.log(j);
+
+  // 코알누 for문 while문 문제2.
+  // for(let i = 1; i <= 100; i+=2) {
+  //   console.log(i);
+  // }
+
+  // 코알누 for문 while문 문제3.
+  // for(let i = 1; i <=50; i++) {
+  //   let stringValue = i.toString();
+  //   let result = "";
+  //   for(let j=0; j<stringValue.length; j++) {
+  //     if(stringValue[j]== "3" || stringValue[j] == "6" || stringValue[j] == "9") {
+  //       result += "짝";
+  //     }
+  //   }
+  //   console.log(result.length > 0 ? result: i);
+  // }
+
+  // 코알누 for문 while문 문제4.
+  let n = 11;
+  let isPrime = true;
+
+  if(n === 1) {
+    isPrime = false;
+  }
+  for(let i=2; i<n; i++) {
+    if(n % i == 0) {
+      isPrime = false;
+    }
+  }
+  console.log(isPrime);
 </script>
 </body>
 </html>
